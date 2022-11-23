@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.home{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: white;
+}
+.navbar ul li{
+    padding: 12px 24px;
+}
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.5;
+    border: none;
+    background-color: #F44336;
+}
+.link a{
+    color: white;
+}
+.link:hover a {
+    background-color: white;
+    color: black;
+}
+.home:hover a{
+    background-color: lightgray;
+    color: black;
+}
+.navbar{
+    background-color: #F44336;
+}
+.start{
+    padding: 104px 16px;
+    background-color: #F44336;
+    margin: auto;
+    text-align: center;
+}
+.start h1{
+    font-weight: 400;
+    margin: 16px;
+    line-height: 1.5;
+    font-size: 64px;
+    color: white;
+}
+.start h6{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 24px 0px;
+    color: white;
+}
+.get{
+    margin: 16px 0px 0px 0px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.get:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+    border: none;
+}
+.lorem{
+    display: flex;
+    padding: 64px 16px;
+    width: 60%;
+    margin: auto;
+}
+.lorem .left h1{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 36px;
+}
+.lorem .left{
+    width: 70%;
+}
+.lorem .right{
+    width: 30%;
+
+}
+.lorem .left h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px ;
+    padding: 32px 0px;
+    line-height: 1.5;
+}
+.lorem .left p{
+    line-height: 1.5;
+    font-size: 15px;
+    color: gray;
+}
+.lorem .right i{
+    margin: 50px;
+    font-size: 200px;
+    color: #F44336;
+}
+.background{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.ipsum{
+    display: flex;
+    padding: 64px 16px;
+    width: 60%;
+    margin: auto;
+}
+.ipsum .right h1{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 36px;
+}
+.ipsum .right{
+    width: 70%;
+}
+.ipsum .left{
+    width: 40%;
+
+}
+.ipsum .right h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px ;
+    padding: 32px 0px;
+    line-height: 1.5;
+}
+.ipsum .right p{
+    line-height: 1.5;
+    font-size: 15px;
+    color: gray;
+}
+.ipsum .left i{
+    margin: 60px 50px 50px 50px ;
+    font-size: 200px;
+    color: #F44336;
+}
+.day{
+    padding: 64px 16px;
+    background-color:#666666 ;
+    color: white;
+    text-align: center;
+}
+.foot{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: #666666;
+    margin: 32px 0px;
+    letter-spacing: 3px;
+}
+.icon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.by p{
+    margin: 15px 0px;
+    color: lightgray;
+}
